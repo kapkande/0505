@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
+* {font-family: 'Lato', sans-serif;}
+* {margin: 0;}
+.hbody {
+    display: flex;
+}
+.hlogo {
+    flex: 0 0 70px;
+ 
+    
+}
+.header_list {display: flex;
+}
+    
+.header_list li {
+    list-style: none;
+    margin: 0 0 0 30px;
+    
+    
+}
+.header_lint:hover {
+ border-bottom: 2px solid #18a3dd;
+ transition: margin-right 2s .5s;
+}
+.header_lint {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+.hbody { position: relative;
+
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    }
+
+.content_in {
+    margin: 200px 0 0 0;
+}
+.text_row { 
+ display: flex;   
+}
+.text_h1 {
+    margin: 0 0 0 28px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: #333740;
+}
+
+.h11 {
+    font-size: 50px;
+    text-transform: uppercase;
+    
+}
+.h12 {
+    font-size: 17px;
+}
+span {
+    height: 94px;
+    width: 3px;
+    background-color: #18a3dd;
+    border-radius: 10px;
+}
+.textm {
+    color: rgb(110, 110, 110);
+    margin: 60px 0 60px 0;
+}
+.btm_row {
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   max-width: 400px;
+    
+}
+.port1 {
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 14px;
+    transition: all .4s;
+    
+    
+    }
+.port1:hover {
+    color:#18a3dd;
+    font-size: 0.9rem;
+    transition: all .4s;
+}
+.port11 { 
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    background-color: #18a3dd;
+    padding: 18px 64px;
+    border-radius: 40px;
+    text-transform: uppercase;  
+    transition: all .4s;
+   
+}
+.port11:hover {
+    color: #40a0ca;
+    background-color: #333740;
+    transition: all .4s;
+}
+
+
+.conv_row {
+    display: flex;
+    align-items: center;
+    
+}
+.btm_row {font-size: 14px;
+}
+.conv2 img { width: 100%;}
+.conv2 {flex: 0 0 15px;
+
+}
+.btmm a { background-color: aqua;
+
+}
+.wraper {
+    
+}
+.cantainer {
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+
+}
+.imgI {
+    max-width: 580px;
+
+}
+
+.imgI img {
+    max-width: 100%;
+display: block;
+}
