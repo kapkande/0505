@@ -110,6 +110,8 @@ span {
 .conv_row {
     display: flex;
     align-items: stretch;
+    justify-content: space-between;
+    flex: 0 1 145px;
     
 }
 .btm_row {font-size: 14px;
