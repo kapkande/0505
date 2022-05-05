@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
-* {font-family: 'Lato', sans-serif;}
+.btm_row {font-weight: 700;}
+.textm, .header_lint { font-family:'Lato', sans-serif;
+    font-weight: 300;
+    }
+
+.h11 {font-family: 'Raleway', sans-serif;}
 * {margin: 0;}
 
-
+fomt
 
 
  
@@ -40,7 +44,7 @@
 }
 .header_lint {
     color: rgb(0, 0, 0);
-    font-size: 12px;
+    font-size: 14px;
     text-decoration: none;
     
 }
@@ -57,6 +61,7 @@
 }
 .text_row { 
  display: flex;   
+ align-items:end;
 }
 .text_h1 {
     margin: 0 0 0 28px;
@@ -64,18 +69,19 @@
     justify-content: space-between;
     flex-direction: column;
     color: #333740;
+   
 }
 
 .h11 {
-    font-size: 50px;
+    font-size: 72px;
     text-transform: uppercase;
     
 }
 .h12 {
-    font-size: 17px;
+    font-size: 24px;
 }
 span {
-    height: 94px;
+    height: 100px;
     width: 3px;
     background-color: #18a3dd;
     border-radius: 10px;
@@ -83,19 +89,20 @@ span {
 .textm {
     color: rgb(110, 110, 110);
     margin: 60px 0 60px 0;
+    font-size: 16px;
 }
 .btm_row {
     display: flex;
     align-items: center;
    justify-content: space-between;
-   max-width: 400px;
+   /* max-width: 400px; */
     
 }
 .port1 {
     text-transform: uppercase;
     color: rgb(0, 0, 0);
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     transition: all .4s;
     
     
@@ -108,9 +115,9 @@ span {
 .port11 { 
     text-decoration: none;
     color: rgb(0, 0, 0);
-    font-size: 14px;
+    font-size: 16px;
     background-color: #18a3dd;
-    padding: 18px 64px;
+    padding: 17.5px 43px;
     border-radius: 40px;
     text-transform: uppercase;  
     transition: all .4s;
@@ -126,8 +133,8 @@ span {
 .conv_row {
     display: flex;
     align-items: stretch;
-    justify-content: space-between;
-    flex: 0 1 145px;
+    /* justify-content: space-between; */
+    flex: 1 0 145px;
     
 }
 .btm_row {font-size: 14px;
@@ -141,7 +148,7 @@ span {
 }
 
 .cantainer {
-    max-width: 1170px;
+    max-width: 1185px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
