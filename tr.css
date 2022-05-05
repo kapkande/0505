@@ -86,8 +86,8 @@ span {
     }
 .port1:hover {
     color:#18a3dd;
-    font-size: 0.9rem;
-    transition: all .4s;
+    font-size: 0.91rem;
+    transition: all .5s;
 }
 .port11 { 
     text-decoration: none;
