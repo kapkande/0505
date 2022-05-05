@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
 * {font-family: 'Lato', sans-serif;}
 * {margin: 0;}
+
+
+
+
+ 
+
 .hbody {
     display: flex;
 }
@@ -15,12 +21,22 @@
 .header_list li {
     list-style: none;
     margin: 0 0 0 30px;
-    
-    
+  
+}
+.header_list li:first-child {
+    margin: 0;
+  
+}
+.header_list li:last-child {
+    margin: 0 20px 0 30px;
+  
+}
+.header_list {
+    padding: 0;
 }
 .header_lint:hover {
  border-bottom: 2px solid #18a3dd;
- transition: margin-right 2s .5s;
+
 }
 .header_lint {
     color: rgb(0, 0, 0);
@@ -86,7 +102,7 @@ span {
     }
 .port1:hover {
     color:#18a3dd;
-    font-size: 0.91rem;
+    /* font-size: 0.91rem; */
     transition: all .5s;
 }
 .port11 { 
@@ -117,15 +133,13 @@ span {
 .btm_row {font-size: 14px;
 }
 .conv2 img { width: 100%;}
-.conv2 {flex: 0 0 15px;
+.conv2 {flex: 0 0 16px;
 
 }
 .btmm a { background-color: aqua;
 
 }
-.wraper {
-    
-}
+
 .cantainer {
     max-width: 1170px;
     display: flex;
@@ -138,8 +152,27 @@ span {
     max-width: 580px;
 
 }
+.imgI{
+    padding-left: 150px;
+    background-image: url("1.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+  }
+.asd1{
+    padding-right: 150px;
+    background-image: url("2.png");
+    background-position: right top;
+    
+    background-repeat: no-repeat;
+  } 
 
+ 
 .imgI img {
     max-width: 100%;
 display: block;
+}
+
+@media (max-width: 886px) {
+    .asd1 {background-image: none}
+    .imgI{background-image: none}
 }
