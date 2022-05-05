@@ -109,7 +109,7 @@ span {
 
 .conv_row {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     
 }
 .btm_row {font-size: 14px;
