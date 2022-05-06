@@ -2,6 +2,7 @@
     font-weight: 700;}
 .textm p, .header_lint { font-family:'Lato', sans-serif;
     font-weight: 300;
+    letter-spacing: 0.25px;
     }
 
 .h11 {font-family: 'Raleway', sans-serif;}
