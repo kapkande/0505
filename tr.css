@@ -86,9 +86,9 @@
 .span {
     height: 200px;
     height: 100px;
-    width: 3px;
+    width: 5px;
     background-color: #18a3dd;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .textm {
     color: rgb(110, 110, 110);
