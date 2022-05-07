@@ -26,7 +26,7 @@
 
 .hbody {
     display: flex;
-   width: 109%;
+   width: 110%;
 }
 .hlogo {
     flex: 0 0 70px;
@@ -41,24 +41,60 @@
     
 .header_list li {
     list-style: none;
-    margin: 0 0 0 9.5%;
+    /* margin: 0 0 0 9.9%; */
   
-}
+} 
 .header_list li:first-child {
-    margin: 0 0 0 18%;
+    margin: 0 0 0 18.1%;
   
 }
-/* .header_list li:last-child {
+.header_list li:last-child {
     margin: 0 0 0 9.5%;
   
-} */
+} 
+.header_list .backlast1 { margin-left: 9.5%;}
+.header_list .backlast2 { margin-left: 10%;}
 .header_list {
     padding: 0;
+   
 }
-.header_lint:hover {
- border-bottom: 2px solid #18a3dd;
+/* .header_lint:hover {
+ border-bottom: 4px solid #18a3dd;
+border-left: 5px;
+
+} */
+
+
+.header_lint {
+    text-decoration:none; /*Убираем стандартное подчёркивание ссылки если оно ещё не убрано*/
+    display: inline-block; /*делаем чтобы наша ссылка из строчного элемента превратилась в строчно-блочный*/
+    line-height: 21px; /*Задаём высоту строки (можно в пикселях)*/
+    color:#2F73B6;/*Задаём цвет ссылки*/
+    height: 21.9px;
+    }
+    .header_lint:after {
+        display: block; /*превращаем его в блочный элемент*/
+        content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+        height: 0px; /*задаём высоту линии*/
+        width: calc(100% + 14px); /*задаём начальную ширину элемента (линии)*/
+        background-color: #18a3dd;; /*цвет фона элемента*/
+        transition: height 0.2s linear; /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
+        border-radius: 10px;
+
+
+        }
+        .header_lint:hover:after,
+        .header_lint:focus:after {
+height: 4px;
 
 }
+.backlast {margin: 0 0 0 1px;}
+
+
+
+
+
+
 
     
 
@@ -66,7 +102,7 @@
     color: rgb(0, 0, 0);
     font-size: 14px;
     text-decoration: none;
-    
+   padding-bottom: 1.1px;
 }
 .hbody { position: relative;
 
@@ -107,7 +143,7 @@
 }
 .textm {
     color: rgb(110, 110, 110);
-    margin: 49px 0 64px 0;
+    margin: 49px 0 66px 0;
     font-size: 16px;
 }
 .btm_row {
@@ -174,12 +210,12 @@ path {
     max-width: 1185px;
     display: flex;
     justify-content: space-between;
-    margin: 22px auto 0 auto;
+    margin: 10px auto 0 auto;
 
 
 }
 .content {
-    
+    margin-top: 12px ;
     width: 50%;
 }
 .imgI {
@@ -207,8 +243,7 @@ path {
 .imgI img {
     max-width: 100%;
 display: block;
-margin-top: -22px;
-margin-left: -27px;
+
 }
 
 @media (max-width: 886px) {
