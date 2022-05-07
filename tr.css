@@ -65,7 +65,14 @@ border-left: 5px;
 } */
 
 
- .header_lint:after {
+.header_lint {
+    text-decoration:none; /*Убираем стандартное подчёркивание ссылки если оно ещё не убрано*/
+    display: inline-block; /*делаем чтобы наша ссылка из строчного элемента превратилась в строчно-блочный*/
+    line-height: 21px; /*Задаём высоту строки (можно в пикселях)*/
+    color:#2F73B6;/*Задаём цвет ссылки*/
+    height: 21.9px;
+    }
+    .header_lint:after {
         display: block; /*превращаем его в блочный элемент*/
         content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
         height: 4px; /*задаём высоту линии*/
@@ -79,12 +86,6 @@ border-left: 5px;
         .header_lint:hover:after,
         .header_lint:focus:after {
             width: calc(100% + 14px)
-
-
-        }
-        .header_lint:hover:after,
-        .header_lint:focus:after {
-height: 4px;
 
 }
 .backlast {margin: 0 0 0 1px;}
@@ -141,7 +142,7 @@ height: 4px;
     border-radius: 20px;
 }
 .textm {
-    color: rgb(110, 110, 110);
+    color:#5e5d5d;
     margin: 49px 0 66px 0;
     font-size: 16px;
 }
