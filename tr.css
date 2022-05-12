@@ -250,18 +250,17 @@ width: 100%;
 }
 
 @media (max-width: 886px) {
-    .asd1 {background-image: none}
+    .asd1 {background-image: none
+        padding: 0;}
+    .imgI img{ background-image: none;
+        padding: 0;}
     .imgI{
-        background-image: none;
+       
         position:absolute;
         width: 100%;
         z-index: 1;
         padding: 0;
-        padding: 0;
-
     }
-
-    .asd1 { padding: 0;}
     .content {
          position: relative;
         z-index: 5; 
