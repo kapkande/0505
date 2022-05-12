@@ -20,7 +20,9 @@
 * {margin: 0;}
 body {background-color: #fafcfc;}
 
-
+.menu {
+    display: none;
+}
 
  
 
@@ -206,7 +208,7 @@ path {
 
 }
 
-.cantainer {
+.container {
     max-width: 1185px;
     display: flex;
     justify-content: space-between;
@@ -219,8 +221,8 @@ path {
     width: 50%;
 }
 .imgI {
-    max-width: 580px;
-    z-index: 50;
+    /* max-width: 580px; */
+   
     position: relative;
   
 }
@@ -241,13 +243,103 @@ path {
 
  
 .imgI img {
-    max-width: 100%;
+    /* max-width: 100%; */
 display: block;
+width: 100%;
 
 }
 
 @media (max-width: 886px) {
     .asd1 {background-image: none}
-    .imgI{background-image: none}
+    .imgI{
+        background-image: none;
+        position:absolute;
+        width: 100%;
+        z-index: 1;
+        padding: 0;
+        padding: 0;
+
+    }
+
+    .asd1 { padding: 0;}
+    .content {
+         position: relative;
+        z-index: 5; 
+        display: block;
+        width: 100%;
+        margin: 5px ;
+      
+    }
+    .header_list {
+        display: none;
+    }
+  
+    
+    /* text */
+    .h11 {
+        font-size: 46px;
+        color: #fafcfc;
+    }
+    .h12 {
+        font-size: 18px;
+        color: #fafcfc;
+    }
+    .content_in {
+        margin-top: 35% ;
+            }
+    .textm {
+        margin: 20px 0 35px 0;
+    }
+    /* btm */
+    .port1 {
+        color: #fafcfc;
+        font-size: 12px;
+    }
+
+    .port{
+        font-size: 12px;
+    }
+    
+   
+     .line {
+         width: 40px;
+         border: 2px solid #ffffff; ; 
+         background-color: #ffffff; 
+         border-radius: 5px;
+     }
+     .line_between{
+        width: 40px;
+        border: 2px solid #ffffff; 
+        background-color: #ffffff; 
+        border-radius: 5px;
+    }
+    /* burger */
+    .hbody {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
+    .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-right: 5%;
+ }
 }
 
+
+/* 
+.line { position: relative;}
+.line:nth-child(1) {
+    transform: rotate(45deg);
+    top: 9px;
+    left: 8px;
+}
+.menu samp:hover {
+    width: 0%;
+    opacity: 0;
+}
+.line:nth-child(3) {
+    transform: rotate(-45deg);
+    top: -8px;
+    left: 8px;} */
