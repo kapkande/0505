@@ -28,7 +28,7 @@
 </head>
 <body>
  <div class="wraper">
-     <div class="cantainer">
+     <div class="container">
         <div class="content">
             <div class="burger">
                 <div class="body1">
@@ -39,6 +39,11 @@
             <div class="hadar_burger">
             <span></span>
             </div>
+            <menu class="menu">
+                <div class="line line1"></div>
+                <samp class="line_between"></samp>
+                <div class="line line2"></div>
+            </menu>
             <nav class="header_menu">
                 <ul class="header_list">
                     <li>
@@ -59,7 +64,7 @@
     </div>
 
 
-            </div>
+        </div>
             <div class="content_in">
                 <div class="text_row">
                    <div class="span"></div>
@@ -102,10 +107,15 @@
                 </div>
             </div>
         </div>
-        <div class="imgI">
-            <img class="asd1" src="Какой-то красавчик.jpg" alt="vlad">
+        <!-- <div class="imgI">
+            <img class="asd1" src="im.jpg" alt="vlad">
         
-        </div>
+        </div> -->
+            <picture class="imgI">
+                <source class="asd1" media="(max-width: 886px)" srcset="iml.png">
+                <source class="asd1" media="(min-width: 887px)" srcset="Im.jpg">
+                <img src="Im.jpg">
+            </picture>
      </div>
  </div>
 </body>
